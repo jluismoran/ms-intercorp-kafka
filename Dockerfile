@@ -6,7 +6,7 @@ WORKDIR /application
 RUN mv /application/target/*.jar /application/ms-keolatest.jar
 
 # Exponer el puerto en el que tu aplicación se ejecuta
-EXPOSE 8081
+EXPOSE 8080
 
 # Comando para ejecutar la aplicación
 ENTRYPOINT ["java", "-jar", "/application/ms-keolatest.jar"]
