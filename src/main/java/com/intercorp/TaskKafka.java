@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TaskApiGateway {
+public class TaskKafka {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TaskApiGateway.class, args);
+		SpringApplication.run(TaskKafka.class, args);
 	}
 
 }
